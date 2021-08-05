@@ -1,0 +1,83 @@
+# Security Policy
+
+## Supported Versions
+
+ 
+
+Output
+
+Code
+main.py
+22 lines
+
+Fork
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+#JMTHON USERBOT
+# @RRRD7
+
+from telethon.sync import TelegramClient
+from telethon.sessions import StringSession
+a = "__________________________"
+print("  SOURCE JMTHON - STRING SESSION")
+print(a)
+print("")
+
+APP_ID = int(input("- ENTER APP ID : "))
+API_HASH = input("- ENTER API HASH : ")
+print("\n---------------------------")
+
+with TelegramClient(StringSession(), APP_ID, API_HASH) as tb:
+    print("")
+    print("\n-------
+
+from telethon.sync import TelegramClient
+from telethon.sessions import StringSession
+a = "__________________________"
+print("  SOURCE JMTHON - STRING SESSION")
+print(a)
+print("")
+
+APP_ID = int(input("- ENTER APP ID : "))
+API_HASH = input("- ENTER API HASH : ")
+print("\n---------------------------")
+
+
+1941298503:AAF73LpVW6rnLbBa4v3bXTq_pF5C38cKVwI
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
